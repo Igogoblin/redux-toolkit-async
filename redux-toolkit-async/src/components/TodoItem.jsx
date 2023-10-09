@@ -6,7 +6,7 @@ import "../App";
 function TodoItem({ id, text, completed }) {
   const dispatch = useDispatch();
   return (
-    <li>
+    <li className="todoItem">
       <input
         className="check"
         type="checkbox"

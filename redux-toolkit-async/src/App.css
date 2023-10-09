@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+.todoItem {
+  list-style-type: none;
+}
 .check + span {
   padding: 5px;
 }
