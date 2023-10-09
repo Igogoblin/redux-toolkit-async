@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+.check + span {
+  padding: 5px;
+}
+.check:checked + span {
+  text-decoration: line-through;
+}
+
+.dell {
+  color: rgb(238, 99, 99);
+}
